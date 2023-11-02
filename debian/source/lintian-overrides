@@ -1,0 +1,4 @@
+# License is in License-Reference field (see bug#786450)
+missing-license-paragraph-in-dep5-copyright gpl-3\+ *
+missing-license-text-in-dep5-copyright GPL-3\+ *
+very-long-line-length-in-source-file *.md*
