@@ -1,3 +1,18 @@
+twitter-bootstrap4 (4.6.1+dfsg1-4deepin1) unstable; urgency=medium
+
+  * Fix CVE-2024-6484, CVE-2024-6531 (XSS vulnerability in carousel
+    component):   An anchor element (<a>), when used for carousel
+    navigation   with a data-slide attribute, can contain an href
+    attribute   value that is not subject to proper content
+    sanitization.   Improper extraction of the intended target
+    carousel's   #id from the href attribute can lead to use cases where
+    the click event's preventDefault()   is not applied and the href is
+    evaluated and executed.   As a result, restrictions are not applied
+    to the data   that is evaluated, which can lead to potential   XSS
+    vulnerabilities.
+
+ -- deepin-ci-robot <packages@deepin.org>  Fri, 08 May 2026 02:10:53 +0800
+
 twitter-bootstrap4 (4.6.1+dfsg1-4) unstable; urgency=medium
 
   * Team upload
