@@ -1,2 +1,3 @@
 do-not-update-copyright-year.diff
 dont-check-for-caniuse-lite-update.patch
+0003-CVE-2024-6531.patch
